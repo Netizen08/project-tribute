@@ -1,5 +1,6 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
+    color:black;
 }
 body{
     background-color: darkgrey;
@@ -24,8 +25,21 @@ body{
     align-items: center;
     
 }
+#title h1{
+    margin: 10px 10px 5px 10px;
+}
+#title p{
+    margin: 0 10px 10px 10px;
+    font-size: 20px;
+}
+#figure-caption{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 #image-caption{
     font-style: italic;
+    align-self: flex-start;
 }
 #tribute-info{
     display: flex;
@@ -34,5 +48,18 @@ body{
     background-color: #eee;
 }
 #tribute-content{
-    width: 60%;
+    width:75%;
+}
+#more-info{
+    align-self: flex-start;
+}
+@media (max-width:1000px){
+    #image{
+        width: 90%;
+    }
+    #tribute-content{
+        width: 90%;
+        align-self: flex-start;
+        padding :20px;
+    }
 }
