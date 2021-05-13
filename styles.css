@@ -1,0 +1,38 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: darkgrey;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #eee;
+    
+}
+#img-div{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#image-caption{
+    font-style: italic;
+}
+#tribute-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #eee;
+}
+#tribute-content{
+    width: 60%;
+}
